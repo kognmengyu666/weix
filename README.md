@@ -6,4 +6,4 @@
 支持一键部署
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/kognmengyu666s-projects/import?s=https%3A%2F%2Fgithub.com%2Fkognmengyu666%2Fweix&hasTrialAvailable=1&showOptionalTeamCreation=false&project-name=weix&framework=other&totalProjects=1&remainingProjects=1)
