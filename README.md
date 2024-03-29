@@ -1,7 +1,7 @@
 # weix
 
 支持微信运动，支付宝，qq步数提交
-
+![image](https://github.com/kognmengyu666/weix/assets/114412119/bc1238ee-bf02-4c30-9f45-a50e31da30a2)
 
 支持一键部署
 
