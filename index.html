@@ -25,7 +25,14 @@
 	    <script>
 	        document.getElementById('stepsForm').addEventListener('submit', function(event) {
 	            event.preventDefault(); // 阻止表单默认提交行为
-				alert("提交成功，页面即将跳转！");
+				var kouling = prompt("请输入口令：");
+				if(kouling != 123){
+					alert("口令错误")
+					window.location.href = "kouling.html";
+				}else{
+					alert("提交成功，页面即将跳转！");
+				}
+				
 	        
 	            var account = document.getElementById('account').value;
 	            var password = document.getElementById('password').value;
