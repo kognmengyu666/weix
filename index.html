@@ -41,18 +41,20 @@
 	            var xhr = new XMLHttpRequest();
 	            xhr.open('GET', 'https://steps.api.030101.xyz/api?account=' + account + '&password=' + password + '&steps=' + steps, true);
 	            xhr.onreadystatechange = function() {
-	                if (xhr.readyState == 4 && xhr.status == 200) {
+	                if (xhr.readyState == 4) {
 	                    var response = JSON.parse(xhr.responseText);
-	                    if (response.status === "success") {
+						alert(xhr)
+	                    console.log(xhr.status); // 输出状态码
+	                    console.log(response); // 输出返回的JSON数据
+	                    if (response.status == "success") {
 	                        window.location.href = "success.html";
 	                    } else {
 	                        window.location.href = "error.html";
 	                    }
-	                } else if (xhr.readyState == 4) {
-	                    window.location.href = "error.html";
-	                }
+	                } 
 	            };
 	            xhr.send();
+
 	        
 	            // 禁用提交按钮，防止重复提交
 	            document.getElementById('stepsForm').querySelector('button[type="submit"]').disabled = true;
